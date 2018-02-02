@@ -27,3 +27,5 @@ For skins that use themes you should compile the assets for each theme:
 ```
 TexturePacker -input skin.name\themes\Blue -output skin.name\media\Blue.xbt
 ```
+
+For ease of use you can place `TexturePacker` in your $PATH, on Windows this can be done by modifying the PATH environment variable. On Unix clients you can place the binary somewhere like `/usr/local/bin` which is commonly listed in PATH for user compiled binaries.
